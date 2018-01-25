@@ -1,3 +1,9 @@
+import os
+import sys
+
+root = os.path.dirname(os.path.dirname(__file__))
+sys.path.append(os.path.join(root, 'vendor/facets/facets_overview/python'))
+
 import base64
 
 from IPython.core.display import display, HTML
