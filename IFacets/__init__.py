@@ -30,7 +30,7 @@ def overview(data, name=None, height=800):
     </script>"""
     display(HTML(template.format(data=data, height=height)))
 
-def dive(data, name=None, height=800):
+def dive(data, name=None, height=600):
     data = data.to_json(orient='records')
     template = """
     <facets-dive id='dive' height='{height}'></facets-dive>
