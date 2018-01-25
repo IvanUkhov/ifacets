@@ -5,8 +5,8 @@ The package is a helper for integrating [Facets] into [IPython] notebooks.
 ## Installation
 
 ```bash
-git clone --recursive https://github.com/IvanUkhov/ifacets.git
-make -C ifacets
+git clone --recursive https://github.com/IvanUkhov/IFacets.git
+make -C IFacets
 ```
 
 
